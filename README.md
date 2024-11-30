@@ -101,7 +101,3 @@ import "vov.css"; // Add VOV.css animations
 ## License
 
 MIT License
-
----
-
-Feel free to expand or customize this `README.md` as per your project's needs! Let me know if you'd like additional examples or adjustments.
