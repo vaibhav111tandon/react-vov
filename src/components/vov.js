@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import PropTypes from "prop-types";
 import "vov.css"; // Import VOV.css animations
 
 const Vov = ({ animation, duration = "1s", delay = "0s", children, onAnimationEnd }) => {
@@ -32,4 +33,11 @@ const Vov = ({ animation, duration = "1s", delay = "0s", children, onAnimationEn
   return <div ref={ref}>{children}</div>;
 };
 
+Vov.propTypes = {
+  animation: PropTypes.string.isRequired,
+  duration: PropTypes.string,
+  delay: PropTypes.string,
+  children: PropTypes.node,
+  onAnimationEnd: PropTypes.func
+}
 export default Vov;

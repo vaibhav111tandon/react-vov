@@ -5,7 +5,7 @@ export default {
   component: Vov,
 };
 
-export const Primary = (args) => (
+export const Primary = () => (
 <div>
     <Vov animation="fade-in" duration="2s">
       <h1>Hello!</h1>
